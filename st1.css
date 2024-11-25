@@ -1,0 +1,132 @@
+@import url(https://db.onlinewebfonts.com/c/9fa671a503f98c1cec238d1170284643?family=Granada);
+@import url(https://db.onlinewebfonts.com/c/40ee97dfced68264064a8ecdb5726ea8?family=Glosa+W01+Roman);
+.mmain_container 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #2e2d29;
+}
+@font-face {
+    font-family: "Capitolium News W01 2 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.eot");
+    src: url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.svg#Capitolium News W01 2 Bold")format("svg");
+}
+@font-face {
+    font-family: "Epistula Regular TRIAL";
+    src: url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.eot");
+    src: url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.svg#Epistula Regular TRIAL")format("svg");
+}
+@font-face {
+    font-family: "Glosa W01 Bold";
+    src: url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.eot");
+    src: url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.svg#Glosa W01 Bold")format("svg");
+}
+.mmain_container
+{
+    padding: 30px;
+    background-color: #c1c1c177;
+    height: max-content;
+}
+.mmain_container .ccontainer_1
+{
+    margin-bottom: 40px;
+}
+.mmain_container .ccontainer_1 p:nth-child(1) 
+{
+    font-size: 50px;
+    font-family:  "Glosa W01 Bold";
+}
+.mmain_container .ccontainer_1 p:last-child 
+{
+   font-size: 25px;
+}
+.mmain_container .ccontainer_2
+{
+    width: 450px;
+}
+.mmain_container .ccontainer_2 p:first-child, .mmain_container .ccontainer_2 p:nth-child(2)
+{
+    display: inline;
+    font-weight: 600;
+}
+.mmain_container .ccontainer_2 p:nth-child(1)
+{
+    font-size: 20px;
+}
+.mmain_container .ccontainer_2 p:nth-child(2)
+{
+    font-size: 40px;
+    font-weight: 800;
+    color: #b1040e;
+}
+.mmain_container .ccontainer_2 p:nth-child(3)
+{
+    font-weight: 600;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.mmain_container .ccontainer_2 :is(p:nth-child(4) i,p:nth-child(5) i,p:nth-child(6) i)
+{
+    margin-right: 10px;
+}
+.mmain_container .ccontainer_2 :is(p:nth-child(4),p:nth-child(5),p:nth-child(6))
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.mmain_container .fa-arrow-up-right
+{
+    transition: transform 0.5s;
+}
+.mmain_container .aanc:hover .fa-arrow-up-right
+{
+    color: #b1040e;
+    transform: translateX(6px) translateY(-6px);
+}
+.mmain_container .aanc:hover a 
+{
+    text-decoration: 3px underline #b1040e;
+}
+.mmain_container .ssdiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;   
+}
+.mmain_container button
+{
+    padding: 15px 30px;
+    background-color: #b1040e;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mmain_container button:hover
+{
+    text-decoration: 2px underline white;
+}
+.mmain_container .ccontainer_3 
+{
+    width: max-content;
+    margin: 100px auto 0;
+}
+.api
+{
+    color: #2e2d29;
+}

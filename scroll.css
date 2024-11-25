@@ -1,0 +1,119 @@
+@import url(https://db.onlinewebfonts.com/c/116af611cbcd9e4bada60b4e700430c1?family=Avenir+Light);.main_scroll 
+{
+    padding: 2rem;
+    background-image: url(bg_testimonials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scroll_1
+{
+    margin-bottom: 30px;
+}
+.scroll_1 p:first-child 
+{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #1b222c;
+}
+.scroll_1 p:last-child
+{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    color: #8c1515;
+}
+.scroll_1 p:last-child::after
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 20%;
+    background-color: black;
+    top:44%;
+    right: 27%;
+}
+.scroll_1 p:last-child::before
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 20%;
+    background-color: black;
+    top:44%;
+    left: 27%;
+}
+.scroll_2 
+{
+    width: max(600px,60%);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    height: max-content;
+    margin: auto;
+}
+.child_1 
+{
+    flex: none;
+    width: 100%;
+    padding: 2rem;
+    font-size: 20px;
+}
+.child_1 p 
+{
+    text-align: center;
+}
+.scroll_2::-webkit-scrollbar
+{
+    appearance: none;
+}
+.child_1 p:first-child 
+{
+    font-family: "Avenir Light";
+    font-weight: 600;
+}
+.child_1 p:last-child 
+{
+    color: rgba(0, 0, 0, 0.611);
+    padding-top: 30px;
+}
+.scroll_3 
+{
+    margin: auto;
+    width: max-content;
+}
+.bo 
+{
+    width: 11px;
+    height:11px;
+    background-color: rgba(0, 0, 0, 0.304);
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+.active 
+{
+    background-color: black;
+}
+
+.main_spon
+{
+    padding: 30px 50px;
+    background-color: #e2e2e2;
+}
+.para17 
+{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.sponcert
+{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+}

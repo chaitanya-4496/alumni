@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-9a55d8748fd46de7b7977d9ee8dee7a4.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+      >
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="t1.css">
+</head>
+<body>
+        <div class="container_1">
+            <div class="container_1_1">
+                <div><p class="para1">Vignan</p><span class="span1"></span><p class="para2">alumni</p></div>
+            </div>
+            <div class="container_1_2">
+                <div class="container_1_2_1">
+                    <ul class="ul1">
+                    </ul>
+                </div>
+                <div class="container_1_2_2">
+                    <ul class="ul2">
+                        <li class="l">Home</li>
+                        <li class="l">Contact</li>
+                        <li class="l">Email</li>
+                        <li class="l">Communities</li>
+                        <li class="l">Volunteer</li>
+                        <li class="l">About</li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+        
+
+    
+      <div class="pi">
+        <div class="main_contt_1">
+          <div class="contt_1">
+            <p class="para20">Profile</p>
+            <p class="para21">Vinay</p>
+            <p class="para22">vinaykakaraparthi04@gmail.com</p>
+            <form method="post" action="profile.jsp">
+              <p><button type="submit" name="logout" class="logout">logout</button></p>
+          </form>
+          </div>
+          <div class="contt_2">
+                <img src="kid-1837375_1280.png" alt="vk" id="pic">
+
+                <label class="label">
+                    <input type="file" required onclick="myFunction()" style="display: none;"id="myFile" accept="image/png image/jpg,image/jpeg"/>
+                    <p class="para23">Select a file</p>
+                </label>
+               
+          </div>
+          
+        </div>
+        
+      </div>  
+        
+
+    <script>
+        let profilepic = document.getElementById("pic");
+        let inputfile = document.getElementById("myFile");
+        inputfile.onchange = function(){
+            profilepic.src = URL.createObjectURL(inputfile.files[0]);
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- 
+  <%-- 
+    Document   : profile
+    Created on : 30-Aug-2023, 7:49:53 pm
+    Author     : vinay
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-9a55d8748fd46de7b7977d9ee8dee7a4.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+      >
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="main_profile">
+        <div class="profile_0">
+            <p class="para1">Vignan Alumni</p>
+        </div>
+        <div class="profile_1">
+            <p class="para2"><a href="t1.jsp">Home</a> <i class="fa-solid fa-house"></i></p>
+            <p class="para3"><a href="contact.jsp">Contact</a> <i class="fa-solid fa-address-card"></i></p>
+        </div>
+    </div>
+
+    <div class="main_profile_1">
+        <p class="para4">Profile</p>
+        <div class="profile_2">
+            <div class="pro_1">
+                <p class="para5"> <%= session.getAttribute("username") %></p>
+                <p class="para6"><%= session.getAttribute("useremail") %></p>
+            </div>
+            <div class="pro_2">
+                <p>
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="vk" id="pic">
+
+                    <label class="label">
+                        <input type="file" required onclick="myFunction()" id="myFile" accept="image/png image/jpg,image/jpeg"/>
+                        <span>Select a file</span>
+                    </label>
+                </p>
+            </div>
+        </div>
+    </div>
+            <form method="post" action="profile.jsp">
+                <p><button type="submit" name="logout">logout</button></p>
+            </form>
+    <script>
+        let profilepic = document.getElementById("pic");
+        let inputfile = document.getElementById("myFile");
+        inputfile.onchange = function(){
+            profilepic.src = URL.createObjectURL(inputfile.files[0]);
+        }
+    </script>
+    <%
+        if(request.getParameter("logout") != null)
+        {
+            session.invalidate();
+            response.sendRedirect("login.jsp");
+        }
+    %>
+</body>
+</html>
+
+ -->

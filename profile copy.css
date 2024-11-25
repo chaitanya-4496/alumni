@@ -1,0 +1,89 @@
+.l
+{
+    font-size: 25px;
+    color: white;
+}
+a 
+{
+    color: white;
+    text-decoration: none;
+}
+body 
+{
+    background-color: #fef9f3;
+}
+.pi 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+img 
+{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.main_contt_1 
+{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px auto;
+}
+.para20 
+{
+    font-size: 50px;
+    font-family: "Glosa W01 Bold";
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.para21
+{
+    color: #ac060f;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.para22
+{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.525);
+}
+label.label input[type="file"] {
+    position: absolute;
+    top: -1000px;
+    
+  }
+  .label {
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 5px;
+    margin-left: 40px;
+    background: #dddddd;
+    display: inline-block;
+  }
+  .label:hover {
+    background: #8c1515;
+    color: #fff;
+  }
+  .label:active {
+    background: #9fa1a0;
+  }
+  .label:invalid + span {
+    color: #000000;
+  }
+  .label:valid + span {
+    color: #ffffff;
+  }
+

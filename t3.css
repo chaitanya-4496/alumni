@@ -1,0 +1,160 @@
+
+@import url(https://db.onlinewebfonts.com/c/9fa671a503f98c1cec238d1170284643?family=Granada);
+@import url(https://db.onlinewebfonts.com/c/40ee97dfced68264064a8ecdb5726ea8?family=Glosa+W01+Roman);
+@font-face {
+    font-family: "Capitolium News W01 2 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.eot");
+    src: url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.svg#Capitolium News W01 2 Bold")format("svg");
+}
+@font-face {
+    font-family: "Epistula Regular TRIAL";
+    src: url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.eot");
+    src: url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.svg#Epistula Regular TRIAL")format("svg");
+}
+@font-face {
+    font-family: "Glosa W01 Bold";
+    src: url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.eot");
+    src: url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.svg#Glosa W01 Bold")format("svg");
+}.main_pixel1
+{
+    background-color: #181d1c;
+    padding: 1px;
+    font-family: sans-serif;
+    padding-bottom: 80px;
+}
+.pixel_1 :is(p:first-child)
+{
+    width: max-content;
+    margin: 60px auto 60px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 3px solid #6b77f5;
+}
+.pixel_1 :is(p:nth-child(2))
+{
+    font-family: "Glosa W01 Bold";
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto auto;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.pixel_2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.pixel_1 :is(p:nth-child(3))
+{
+    color: rgba(255, 255, 255, 0.659);
+    margin: auto auto;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 900px;
+}
+.pixel_1
+{
+    margin-bottom: 100px;
+}
+.figure img 
+{
+    display: block;
+    height: auto;
+    transition: transform 0.3s;
+}
+.pixel_2_1 
+{
+    width: 400px;
+    overflow: hidden;
+    background-color: #070b0a;
+    position: relative;
+}
+.spanish p
+{
+    color: white;
+}
+.spanish p:first-child a 
+{
+    font-family: "Glosa W01 Bold";
+    color: white;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.spanish p:nth-child(2)
+{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.spanish p:nth-child(3)
+{
+    color: rgba(255, 255, 255, 0.615);
+    line-height: 1.7;
+}
+.pixel_2_1:hover .figure img
+{
+    transform: scaleX(1.1) scaleY(1.1);
+}
+.figure
+{
+    height: 300px;
+    overflow: hidden;
+}
+.spanish 
+{
+    padding: 30px;
+    padding-top: 70px;
+}
+.right-arrow
+{
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.pixel_2_1:hover a
+{
+    text-decoration: 4px underline red;
+}
+.pixel_2_1:hover .right-arrow 
+{
+    color: red;
+    transform: translateX(10px);
+}
+.date 
+{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    border: 7px solid rgba(255, 255, 255, 0.463);
+    padding: 20px;
+    width: max-content;
+    border-radius: 50px;
+    background-color: #070b0a;
+    position: absolute;
+    top: 39%;
+    left: 5%;
+    transition: transform 1s;
+}
+.pixel_2_1:hover .date
+{
+    transform: scale(1.1);
+}

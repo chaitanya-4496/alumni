@@ -1,0 +1,568 @@
+@import url(https://db.onlinewebfonts.com/c/9fa671a503f98c1cec238d1170284643?family=Granada);
+@import url(https://db.onlinewebfonts.com/c/40ee97dfced68264064a8ecdb5726ea8?family=Glosa+W01+Roman);
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: "Capitolium News W01 2 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.eot");
+    src: url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c2ca87c92eeb02a6475b51bff5013378.svg#Capitolium News W01 2 Bold")format("svg");
+}
+@font-face {
+    font-family: "Epistula Regular TRIAL";
+    src: url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.eot");
+    src: url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/58bfb4ffaf51d894a4372734e4186055.svg#Epistula Regular TRIAL")format("svg");
+}
+@font-face {
+    font-family: "Glosa W01 Bold";
+    src: url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.eot");
+    src: url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b9902c9382e50cd59d237f6dced6525e.svg#Glosa W01 Bold")format("svg");
+}
+body
+{
+    width: 100%;
+}
+li
+{
+    list-style-type: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.main_container_1 
+{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.589)
+    ,rgb(0, 0, 0)),url("IMG-20221216-WA0014.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.container_1 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+    
+}
+.container_1_1 
+{
+    background-image: linear-gradient(#8c1515,#ac060f);
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    padding: 1rem;
+    font-size: 30px;
+}
+.container_1_1 div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  
+}
+.para1 
+{
+    font-weight: 600;
+    margin-right: 5px;
+    font-family: "Capitolium News W01 2 Bold";
+}
+.span1 
+{
+    width:1.5px;
+    height: 28px;
+    background-color: rgba(255, 255, 255, 0.475);
+}
+.para2
+{
+    font-family: "Epistula Regular TRIAL";
+    margin-left: 3px;
+    font-size: 26px;
+}
+.container_1_2
+{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.708);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.container_1_2_1 
+{
+    height: 50%;
+}
+.container_1_2_1 ul 
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 3rem;
+    padding-top: 10px;
+}
+.container_1_2_2 
+{
+    height: 100%;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.li1,.li2,.li3,.li4,.li5,.li6,.li7,.li8,.li9,.li10
+{
+    font-size: 20px;
+    color: white;
+}
+.ul2 
+{
+    height: 50%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.li5,.li6,.li7,.li8,.li9,.li10 
+{
+    font-weight: 600;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+    padding-bottom: 50px;
+    font-size: 100%;
+}
+.fa-arrow-up-right
+{
+    transition: transform 0.5s;
+}
+.main_container_1 a 
+{
+    color: white;
+}
+.li3 a
+{
+    font-weight: 600;
+    text-decoration: none;
+}
+.li4 
+{
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 10px;
+}
+.li1:hover .fa-arrow-up-right,
+.li2:hover .fa-arrow-up-right,
+.li3:hover .fa-arrow-up-right 
+{
+    transform: translateX(6px) translateY(-6px);
+}
+.li1:hover,.li3:hover,.li2:hover
+{
+    color: red;
+}
+.li1:hover a,.li3:hover a,.li2:hover a
+{
+    text-decoration: 2px underline red;
+}
+.ul2 
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.fa-angle-down 
+{
+    padding-left: 5px;
+}
+
+.container_2 
+{
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+.para3 
+{
+    font-size: 40px;
+    font-family: "Granada";
+    margin-top: 150px;
+}
+.para4 
+{
+    font-size: 100px;
+    font-family: "Glosa W01 Bold";
+}
+.para5 
+{
+    font-size: 30px;
+    font-family: "Glosa W01 Roman";
+    margin-bottom: 150px;   
+}
+.para6
+{
+    font-size: 40px;
+    font-family: "Glosa W01 Bold";
+}
+.para7 
+{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Glosa W01 Roman";
+    margin-bottom: 30px;
+}
+.para8,.para9,.para10 
+{
+    font-size: 25px;
+    font-family: "Glosa W01 Roman";
+   
+}
+.para11
+{
+    margin-top: 50px;
+}
+.button1
+{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #ac060f;
+    outline: none;
+    color: white;
+    z-index: 1;
+    font-size: 20px;
+    margin-bottom: 90px;
+    position: relative;
+    cursor: pointer;
+}
+.span2
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.5s;
+}
+.span3
+{
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.5s;
+}
+.button1:hover .span3,.button1:hover .span2
+{
+    width: 50%;
+    background-color:#ac060f;
+}
+.button1:hover
+{
+    border: none;
+    border: 1px solid #ac060f;
+}
+
+.sul1,.sul2,.sul3,.sul4,.sul5,.sul6
+{
+    color: white;
+    position: absolute;
+    display: none;
+}
+.sul2
+{
+    width: 300px;
+}
+.sul3 
+{
+    width: 250px;
+}
+.sul1 li,.sul2 li,.sul3 li,.sul4 li,.sul5 li,.sul6 li
+{
+    padding: 10px;
+    margin: 7px;
+}
+.sul1 li a,.sul2 li a,.sul3 li a,.sul4 li a,.sul5 li a,.sul6 li a
+{
+    text-decoration: none;
+}
+.sul1 li:hover,.sul2 li:hover,.sul3 li:hover,.sul4 li:hover,.sul5 li:hover,.sul6 li:hover
+{
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.li5:hover .sul1,.li6:hover .sul2,.li7:hover .sul3,.li8:hover .sul4,.li9:hover .sul5,.li10:hover .sul6
+{
+    display: block;
+    top: 100%;
+    padding: 1rem;
+    padding-left: 0;
+    left: 0%;
+    background-color: #8c1515;
+    border-top: 5px solid white;
+    animation: vinay 0.5s;
+    transform-origin: top;
+}
+.li5:hover,.li6:hover,.li7:hover,.li8:hover ,.li9:hover,.li10:hover
+{
+    background-color: #8c1515;
+    color: white;
+}
+.li5:hover .fa-angle-down,.li6:hover .fa-angle-down,.li7:hover .fa-angle-down,.li8:hover .fa-angle-down,.li9:hover .fa-angle-down,.li10:hover .fa-angle-down
+{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+.fa-angle-down
+{
+    transition: all 0.5s;
+
+}
+.li10:hover .sul6
+{
+    display: block;
+    top: 100%;
+    padding: 1rem;
+    padding-left: 0;
+    left: -115%;
+    background-color: #8c1515;
+}
+@keyframes vinay 
+{
+    0%
+    {
+        transform: scaleY(0);
+    }
+    75% 
+    {
+        transform: scaleY(1.1);
+    }
+    100% 
+    {
+        transform: scaleY(1);
+    }
+}
+.main_c 
+{
+    width: 100%;
+}
+.main_contact 
+{
+    padding: 30px 5%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.cpara1 
+{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: "Glosa W01 Bold";
+}
+.cpara6 
+{
+    margin-bottom: 20px;
+}
+form 
+{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    color: rgba(0, 0, 0, 0.727);
+}
+.contact_1 
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact_1 p
+{
+    width: 50%;
+}
+.contact_1 input
+{
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.695);
+    color: rgba(0, 0, 0, 0.727);
+}
+input:focus-within,textarea:focus-within
+{
+    box-shadow: 1px 0px 2px 0px blue;
+}
+.contact_2 
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+.contact_2 div 
+{
+    width: 50%;
+}
+.contact_2_1,.contact_2_1
+{
+    width: 100%;
+}
+.contact_2_1 input,.contact_2_2 input
+{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.695);
+    font-size: 20px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.727);
+}
+textarea
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+}
+.cpara2,.cpara3,.cpara4,.cpara5 
+{
+    padding: 5px 0;
+}
+.spespan 
+{
+    color: red;
+    font-size: 18px;
+}
+.form_submit 
+{
+    width: max-content;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    background-color: #ac060f;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.main_coor 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 100px;
+}
+.coor10 
+{
+    margin-left: 25%;
+}
+.coor_2 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+.coor_2_1 p:first-child
+{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: "Capitolium News W01 2 Bold";
+}
+.coor_2_1 p:nth-child(2),.coor_2_1 p:nth-child(3)
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #e50808;
+    text-decoration: underline;
+    font-size: 17px;
+
+}
+.coor_2_1 p:nth-child(4)
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: #e50808;
+    text-decoration: underline;
+    font-size: 17px;
+
+}
+.para20
+{
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.729);
+    
+}
+.coorp1 
+{
+    font-size: 22px;
+    width: max-content;
+    position: relative;
+    color: red;
+    font-weight: 600;
+}
+.coorp1::before
+{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 250px;
+    top:-80%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.coor_1 div
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    /* padding: 10px 3px; */
+}
+.coor_1 div p{
+    margin-bottom: 10px;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+   
+}
+.coor_1 div p::before
+{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 150%;
+    background-color: black;
+    left: -5%;
+    top: -15%;
+}
